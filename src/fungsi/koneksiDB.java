@@ -40,7 +40,7 @@ public class koneksiDB {
                 } else if (EnkripsiAES.decrypt(prop.getProperty("HOST")).equals("192.168.15.115")) {
                     databasestatus = " DATABASE BACKUP";
                 } else {
-                    databasestatus = " DATABASE AKU DONG";
+                    databasestatus = " DATABASE ORI";
                 }
                 System.out.println("  Berhasil terhubung dengan server RSU Muhammadiyah Siti Aminah : " + databasestatus + "\n\n"
                         + " +-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+ +-+-+\n"
